@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserRegistration\PasswordHasher.csproj" />
+    <ProjectReference Include="..\VSA.DomainServices\VSA.DomainServicesInterfaces.csproj" />
+    <ProjectReference Include="..\VSA.Domain\VSA.Domain.csproj" />
+    <ProjectReference Include="..\VSA.ServicesInterfaces\VSA.ServicesInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>
